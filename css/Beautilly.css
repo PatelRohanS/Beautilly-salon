@@ -105,3 +105,18 @@ nav ul li a {
 }
 
 /* serch  */
+.search-container {
+    position: relative;
+}
+
+#searchInput {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+button {
+    position: relative;
+    z-index: 1;
+}
